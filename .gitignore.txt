@@ -1,0 +1,19 @@
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.vscdb
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e Temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.logs/
+
+# Se você usar o Live Server (extensão do VS Code)
+.history/
