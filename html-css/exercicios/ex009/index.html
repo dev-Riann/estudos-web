@@ -3,33 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código-Fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById("teste")</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-num = int(input("Digite um número: "))
-if num % 2 == 0:
-    print(f"O número {num} é par")
-else:
-    print(f"O número {num} é ímpar")
-print("Fim do programa.")
-        </code>
-    </pre>
-    <h2>Citações Simples</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rapido</q>.</p>
-    <h2>Citações Completas</h2>
-    <p>Segundo a Editora Abril, no seu livro Placar Magazine:</p>
-    <blockquote cite="https://books.google.com.br/books?id=c09GbcFl5KgC&pg=PA49&dq=como+conquistar+a+garota+dos+seus+sonhos&hl=pt-BR&sa=X&ved=2ahUKEwiDmvnwhoqUAxVQLrkGHadZJK0Q6AF6BAgLEAM#v=onepage&q=como%20conquistar%20a%20garota%20dos%20seus%20sonhos&f=false">
-        A maneira mais fácil de conquistar a garota dos seus sonhos...
-        Seja ela quem for!
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language   ">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i"> <!-- 1 A a I i-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a Faculdade</li>
+        <li>Almoçar</li>
+        <li>ir para o Trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <ul type="square"> <!-- circle square disc -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Alface</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Mistura</li>
+    </ul>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>Play2</li>
+        <ul type="square">
+            <li>Gta San Andreas</li>
+            <li>Need for Speed</li>
+            <li>Guitar Hero</li>
+            <li>Crash</li>  
+        </ul>
+        <li>Xbox360</li>
+        <ul type="square">
+            <li>Gta 5</li>
+            <li>Call of Duty</li>
+            <li>Jogo de Corrida</li>
+        </ul>
+        <li>Ps4</li>
+        <ul type="square">
+            <li>Gta 5</li>
+            <li>Call of Duty</li>
+            <ul>
+                <li>Infinite Warfare</li>
+                <br>
+                <li>Black Ops 3</li>
+                <ul>
+                    <li>Modo Zombies</li>
+                    <li>Multiplayer</li>
+                </ul>
+            </ul>
+            <li>Fortnite</li>
+        </ul>
+        <li>Pc</li>
+        <ul type="square">
+            <li>Lol</li>
+            <li>Gta 5</li>
+            <li>Outer Wilds</li>
+            <li>Tunic</li>
+            <li>We Were Here TODOS</li>
+            <li>Return of the Obra Dinn</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcação para criação do conteúdo de uma página web</dd>
+        <br>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <br>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
 </body>
 </html>
