@@ -4,251 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como surgiu o mascote do Android</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;700&display=swap');
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
 
-    @font-face {
-        font-family: 'Android';
-        src: url(fontes/idroid.otf) format('opentype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #d8d6b4;
-        }
-
-        header > h1 {
-            font-size: 3em;
-            font-weight: lighter;
-            text-align: center;
-            color: white;
-            font-family: 'Bebas Neue', sans-serif;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        header > h2 {
-            text-align: center;
-            font-family: sans-serif;
-            color: rgba(255, 255, 255, 0.852);
-            font-weight: normal;
-            font-size: 1.25em;
-            margin-top: 1.40em;
-            margin-bottom: 1.80em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        header {
-            padding-top: 0.75em;
-            background-image: linear-gradient(to top, #012b13 , #24a35b 80%);
-        }
-
-        header > nav > a {
-            display: inline-block;
-            padding: 0.75em;
-            color: #8ec7a6;
-            font-family: 'Bebas Neue', cursive, serif;
-            text-decoration: none;
-        }
-
-        header > nav > a:hover {
-            text-decoration: underline;
-            background-color: #24a35b0e;
-            border-radius: 5px;
-            color: white;
-        }
-
-        main {
-            background-color: white;
-                margin: 0 auto;
-                padding: 2em;
-                max-width: 56em;
-                box-shadow: 0px 0px 1px black;
-                margin-bottom: 30px;
-                border-radius: 10px;
-        }
-
-        main > h1 {
-            font-family: 'Android';
-            color: #00431c;
-            font-size: 1.80em;
-            margin-top: 0em;
-            font-weight: lighter;
-            text-align: left;
-        }
-
-        main > h2 {
-            font-family: 'Android';
-            color: #00431c;
-            font-size: 1.30em;
-            background-image: linear-gradient(to right, #40c778a6, #00ff6e0e);
-            font-weight: lighter;
-            text-align: left
-        }
-
-        main > div {
-            margin-bottom: 20px
-        }
-
-        p {
-            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        line-height: 2em;
-        text-align: justify;
-        text-indent: 2em;
-        font-weight: 300
-        }
-
-        .marcas {
-            font-weight: bold;
-            color: #1a7742;
-        }
-
-        .corrente {
-            font-weight: bold;
-            color: #00431c;
-            background-color: #40c778a6;
-        }
-
-        .corrente::after {
-            content: "🔗";
-        }
-
-        .corrente > a {
-            color: #00431c;
-            text-decoration: none;
-        }
-
-        .corrente > a:hover {
-            text-decoration: underline;
-        }
-
-        picture {
-            display: block;
-            margin: 2em auto;
-            max-width: 100%;
-        }
-
-        picture > img {
-            display: block;
-            margin: 0 auto;
-        }
-
-        main > div {
-            background-color: #113821;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-
-        aside {
-            background-color: #7ee9ae;
-            border-radius: 10px;
-            padding: 0px;
-            margin-bottom: 20px;
-            overflow: hidden;
-        }
-
-        aside > h3 {
-            background-color: #0a4222;
-            color: white;
-            padding: 0.50em;
-            margin: 0;
-            font-family: sans-serif;
-            font-weight: normal;
-        }
-
-        aside > ul {
-            list-style: '✔ ';
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        aside > p {
-            padding: 1em;
-        }
-
-        .food {
-            text-decoration: underline dashed;
-        }
-
-    </style>
 </head>
 <body>
     <header>
         <h1>CURIOSIDADES DE TECNOLOGIA</h1>
-        <h2>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</h2>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Notícias</a>
-                <a href="#">Curiosidades</a>
-                <a href="#">Fale Conosco</a>
-            </nav>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
     </header>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>   
+    
     <main>
-        <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
-        
-        <p>Provavelmente você sabe que o sistema operacional <span class="marcas">Android</span>, mantido pelo <span class="marcas">Google</span> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
-        
-        <h2>A PRIMEIRA VERSÃO</h2>
+        <article>
+            <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
+            
+            <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+            
+            <h2>A PRIMEIRA VERSÃO</h2>
 
-        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <span class="corrente"><a href="https://en.wikipedia.org/wiki/Donald_Morrill" target="_blank">Dan Morrill</a></span>. Ele conta que abriu o <span class="corrente"><a href="https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=pt-BR&gl=BR" target="_blank">Inkscape</a></span> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
-        
-        <picture>
-            <source media="(max-width: 800px)" srcset="imagens/dan-droids-pq.png" type="image/png">
-            <img src="imagens/dan-droids.png" alt="Androids pequenos">
-        </picture>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://en.wikipedia.org/wiki/Donald_Morrill" target="_blank" class="externo">Dan Morrill</a>. Ele conta que abriu o <a href="https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=pt-BR&gl=BR" target="_blank" class="externo">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+            
+            <picture>
+                <source media="(max-width: 680px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+                <img src="imagens/dan-droids.png" alt="Androids pequenos">
+            </picture>
 
-        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador. Seriam os <span class="marcas">Dandroids</span></p>
+            <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador. Seriam os <span class="marcas">Dandroids</span></p>
 
-        <h2>SURGE UM NOVO MASCOTE</h2>
+            <h2>SURGE UM NOVO MASCOTE</h2>
 
-        <p>A ideia de ter um mascote foi amadurecido e a missão foi passada para uma profisisonal da área. A ilustradora Russa <span class="corrente"><a href="https://en.wikipedia.org/wiki/Irina_Blok" target="_blank">Irina Block</a></span>. Também funcionária do Google, ficou com a missão de representar um pequeno robô de uma maneira mais agrádavel</p>
-        
-        <picture>
-            <source media="(max-width: 680px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpeg">
-            <img src="imagens/irina-blok.jpg" alt="Irina Block, criadora do mascote do Android">
-        </picture>
+            <p>A ideia de ter um mascote foi amadurecido e a missão foi passada para uma profisisonal da área. A ilustradora Russa <a href="https://en.wikipedia.org/wiki/Irina_Blok" target="_blank" class="externo">Irina Block</a>. Também funcionária do Google, ficou com a missão de representar um pequeno robô de uma maneira mais agrádavel</p>
+            
+            <picture>
+                <source media="(max-width: 680px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpeg">
+                <img src="imagens/irina-blok.jpg" alt="Irina Block, criadora do mascote do Android">
+            </picture>
 
-        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <span class="marcas">Bugdroid</span>, o novo mascote do Android.</p>
-        
-        <picture>
-            <img src="imagens/bugdroid.png" alt="Android">
-        </picture>
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <span class="marcas">Bugdroid</span>, o novo mascote do Android.</p>
+            
+                <img src="imagens/bugdroid.png" alt="Android" class="pq">
 
-        <p>A principal inspiração para os traços do novo <span class="marcas">Bugdroid</span> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <span class="marcas">Google</span> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo e objetivo.</p>
-        
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=x6XyhGpO6lblAoEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+            <p>A principal inspiração para os traços do novo <span class="marcas">Bugdroid</span> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <span class="marcas">Google</span> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo e objetivo.</p>
+            
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=x6XyhGpO6lblAoEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
-        <aside>
-            <h3>Quer aprender mais?</h3>
-            <p>Outro assunto curioso em relação ao Android é que cada versão foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até 9.0</p>
+            <aside>
+                <h3>Quer aprender mais?</h3>
+                <p>Outro assunto curioso em relação ao Android é que cada versão foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até 9.0</p>
 
-            <ul>
-                <li>1.5 - <span class="food">Cupcake</span></li>
-                <li>1.6 - <span class="food">Donut</span></li>
-                <li>2.0/2.1 - <span class="food">Eclair</span></li>
-                <li>2.2 - <span class="food">Froyo</span></li>
-                <li>2.3 - <span class="food">Gingerbread</span></li>
-                <li>3.0/3.1/3.2 - <span class="food">Honeycomb</span></li>
-                <li>4.0 - <span class="food">Ice Cream Sandwich</span></li>
-                <li>4.1/4.2/4.3 - <span class="food">Jelly Bean</span></li>
-                <li>4.4 - <span class="food">KitKat</span></li>
-                <li>5.0/5.1 - <span class="food">Lollipop</span></li>
-                <li>6.0 - <span class="food">Marshmallow</span></li>
-                <li>7.0/7.1 - <span class="food">Nougat</span></li>
-                <li>8.0/8.1 - <span class="food">Oreo</span></li>
-                <li>9.0 - <span class="food">Pie</span></li>
-            </ul>
-        </aside>
+                <ul>
+                    <li>
+                        1.5 - <abbr title="Bolo de Copo">Cupcake</abbr>
+                    </li>
+                    <li>
+                        1.6 - <abbr title="Rosquinha">Donut</abbr>
+                    </li>
+                    <li>
+                        2.0/2.1 - <abbr title="Clássico pão de mel">Eclair</abbr>
+                    </li>
+                    <li>
+                        2.2 - <abbr title="Sorvete congelado">Froyo</abbr>
+                    </li>
+                    <li>
+                        2.3 - <abbr title="Biscoito de gengibre">Gingerbread</abbr>
+                    </li>
+                    <li>
+                        3.0/3.1/3.2 - <abbr title="Favo de Mel">Honeycomb</abbr>
+                    </li>
+                    <li>
+                        4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr>
+                    </li>
+                    <li>
+                        4.1/4.2/4.3 - <abbr title="Jujuba">Jelly Bean</abbr>
+                    </li>
+                    <li>
+                        4.4 - <abbr title="KitKat">KitKat</abbr>
+                    </li>
+                    <li>
+                        5.0/5.1 - <abbr title="Pirulito ">Lollipop</abbr>
+                    </li>
+                    <li>
+                        6.0 - <abbr title="Marshmallow">Marshmallow</abbr>
+                    </li>
+                    <li>
+                        7.0/7.1 - <abbr title="Nougat">Nougat</abbr>
+                    </li>
+                    <li>
+                        8.0/8.1 - <abbr title="Oreo">Oreo</abbr>
+                    </li>
+                    <li>9.0 - <abbr title="Torta">Pie</abbr></li>
+                </ul>
 
-        <footer>
-            <p>Então é isso! Espero que você tenha gostado do nosso artigo com essas curiosidades sobre o sistema <span class="marcas">Android</span> e seu simpático mascote.</p>
-        </footer>
+                <p>
+                    Infelizmente, o <strong>Android Q</strong> não esxistiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+                </p>
+
+                <p>Acesse aqui o site do <a href="https://www.geeksforgeeks.org/android/history-of-android/" target="_blank" class="externo">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada um trouxe para o sistema Android.</p>
+
+            </aside>
+            
+            <p>
+                Então é isso! Espero que você tenha gostado do nosso artigo com essas curiosidades sobre o sistema <span class="marcas">Android</span> e seu simpático mascote.
+            </p>
+
+        </article>
     </main>
+    <footer>
+        <p>Site criado por <a href="https://github.com/dev-Riann" target="_blank">Rian Henrique</a> para o <a href="https://cursoemvideo.com">Curso em Vídeo</a></p>
+    </footer>
 </body>
 </html>
